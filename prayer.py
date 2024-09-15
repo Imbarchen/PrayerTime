@@ -5,6 +5,7 @@ import os
 import streamlit as st
 from datetime import time
 import random
+import openpyxl
 
 def write_data_xlsx(df,output_excel_path, sheet_name1):
     #Write the DataFrame to the Excel file with sheet name "tab100"
